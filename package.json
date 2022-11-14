@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-express-min",
+  "version": "1.0.0",
+  "description": "A minimal NodeJS Express application that can be used as a template foe your NodeJS Express applications.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server",
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farooq-teqniqly/nodejs-express-min.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farooq-teqniqly/nodejs-express-min/issues"
+  },
+  "homepage": "https://github.com/farooq-teqniqly/nodejs-express-min#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  }
+}
